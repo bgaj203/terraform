@@ -13,3 +13,8 @@ variable "Name" {
   type    = string
   default = "main"
 }
+
+variable "Owner" {
+  type    = string
+  default = "terraform"
+}

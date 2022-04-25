@@ -3,6 +3,7 @@ resource "aws_vpc" "main" {
   instance_tenancy = var.instance_tenancy
 
   tags = {
-    Name = var.Name
+    Name  = var.Name
+    Owner = var.Owner
   }
 }
